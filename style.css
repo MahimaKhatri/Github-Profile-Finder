@@ -278,6 +278,23 @@ font-size: 1rem;
 color: white;
 }
 
+ /* footer section */
+ .footer 
+ {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     font-size:30px;
+     background-color: black;
+     color: yellow;
+     text-align: center;
+   }
+ 
+ 
+ /* end of footer */
+   
+
 
 
 
