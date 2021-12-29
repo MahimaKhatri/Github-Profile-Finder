@@ -1,0 +1,338 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: all .2s;
+}
+.searching
+{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #616161;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #045de9;
+    flex-direction: column;
+    background-image: linear-gradient(135deg, yellow 0%, greenyellow 74%);
+}
+.container .box
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .6rem;
+  flex-direction: column;
+}
+.container .box .input-search
+{
+    width: 300px;
+    height: 40px;
+    background: #09c6f9;
+    border-radius: 5px;
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+
+}
+.container .box .input-search #search-term
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 5px;
+    border: 1.2px solid black;
+    background: #eee;
+    padding: 0 1rem;
+    color: #616161;
+    padding-right: 3rem;
+}
+.container .input-search ion-icon
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    padding: 10px 10px;
+    background: black;
+    z-index: 10;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+.container  .profile-box
+{
+   width:750px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+    background: black;
+    overflow: hidden;
+}
+.profile-box .about
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container  .profile-box .row
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.container  .profile-box .row  .image
+{
+    min-width: 110px;
+width: 110px;
+height: 110px;
+position: relative;
+border-radius: 50%;
+margin-right: 1rem;
+border: 5px solid yellow;
+}
+.container  .profile-box .row  .image img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 50%;
+}
+/* .container  .profile-box .row .details
+{
+} */
+.container  .profile-box .row .about .details .name
+{
+font-size: 1.8rem;
+color: yellow;
+line-height: 2rem;
+}
+.container  .profile-box .row .about .details .username
+{
+font-size: 1rem;
+color: yellowgreen;
+margin: 3px 0;
+}
+.container  .profile-box .row .about .details .country
+{
+font-size: 1rem;
+align-items: center;
+display: flex;
+color: yellowgreen;
+}
+.container  .profile-box .row .about .details .country span
+{
+margin-right: 10px;
+margin-top:3px;
+}
+.container  .profile-box .row .about .btn-profile a
+{
+padding: 1rem 1.7rem;
+font-size: 1.2rem;
+flex: 1;
+color: black;
+background: yellow;
+border-radius: 8px;
+border: none;
+outline: none;
+text-decoration: none;
+}
+
+
+.container .profile-box .bio
+{
+    margin-top: 1rem;
+    width: 100%;
+    position: relative;
+    padding: 0 1rem;
+}
+.container .profile-box .bio h3
+{
+    font-size: 1.4rem;
+    color: yellow;
+    margin: 5px 0;
+    margin-top: 0 !important;
+}
+.container .profile-box .bio p
+{
+    font-size: 1rem;
+    color:white;
+    margin: 5px 0;
+    margin-top: 0 !important;
+}
+.container .profile-box .row-followers
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem ;
+    padding-top: .5rem;
+    padding-bottom: 0;
+}
+.container .profile-box .row-followers .col
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.container .profile-box .row-followers .col .heading
+{
+    font-size: 1.4rem;
+    color: yellow;
+    margin: 5px 0;
+    margin-top: 0 !important;
+}
+.container .profile-box .row-followers .col p
+{
+    width: 100%;
+    font-size: 1.8rem;
+    color: white;
+    margin: 5px 0;
+    margin-top: 0 !important;
+}
+.container .profile-box .respos-row
+{
+  margin-top: .5rem;
+  padding: 0 1rem;
+  position: relative;
+  overflow: auto;
+  padding: 1rem;
+  background: black;
+  height: 170px;
+  margin: .5rem 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+.container .profile-box .respos-row::-webkit-scrollbar
+{
+width: 10px;
+border-radius: 20px;
+}
+.container .profile-box .respos-row::-webkit-scrollbar-thumb
+{
+background: yellow;
+border-radius: 20px;
+
+}
+.container .profile-box .respos-row::-webkit-scrollbar-track
+{
+background: darkgoldenrod;
+border-radius: 20px;
+
+}
+.container .profile-box .repo-heading
+{
+    font-size: 1.4rem;
+    color: yellow;
+    margin: 5px 0;
+    padding-left: 1rem;
+    margin-top: 0 !important;
+}
+.container .profile-box .respos-row ul
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container .profile-box .respos-row ul li
+{
+ width: 100%;
+ padding: .5rem;
+ margin: 3px 0;
+ list-style: none;
+ display: block;
+ border-radius: 5px;
+}
+.container .profile-box .respos-row ul li:hover
+{
+background: greenyellow;
+color: black !important;
+
+}
+.container .profile-box .respos-row ul a
+{
+text-decoration: none;
+font-size: 1rem;
+color: white;
+}
+
+
+
+
+@media (max-width:780px) {
+    .container  .profile-box{
+        padding: 1rem;
+        
+    }
+    .container  .profile-box .row .btn-profile {
+        margin-top: 1.2rem !important;
+        }
+        .container  .profile-box .row .about .details .name{
+            font-size:1.6rem;
+
+            }
+            .container  .profile-box .row .about .details .username{
+            font-size: .8rem;
+         
+            }
+            .container  .profile-box .row .about .details .country{
+            font-size: .8rem;
+         
+            }
+            .container .profile-box .row-followers{
+                flex-wrap: wrap;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .container .profile-box .row-followers .col .heading{
+                font-size: 1.2rem;
+            }
+            .container .profile-box .row-followers .col {
+              margin: 0 .5rem;
+            }
+            .container .profile-box .row-followers .col p{
+                font-size: 1.4rem;
+            }
+            .container .profile-box .repo-heading{
+                font-size: 1.2rem;
+            }
+            .container .profile-box .respos-row{
+                margin-top: .5rem;
+                padding: 0 1rem;
+                position: relative;
+                overflow: auto;
+                padding: 1rem;
+                background: #F5F5F5;
+                height: 150px;
+                margin: .5rem 1rem;
+                border-radius: 10px;
+                margin-top: 1rem;
+              }
+              .container  .profile-box{
+                max-width:750px;
+                width: 100%;
+              }
+}
