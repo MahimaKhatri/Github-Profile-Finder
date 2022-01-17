@@ -1,6 +1,6 @@
 <div align ='center'>
   
-# Github Profile Finder
+# Github Profile Finder :monocle_face:
   
   </div>
 
