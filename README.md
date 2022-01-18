@@ -11,6 +11,7 @@ In this project, we can search GitHub users by their username. The search query 
 ![alt text](Images/1.png)
 ### User Search
 ![alt text](Images/2.png)
+### Search Result
 ![alt text](Images/3.png)
 ### User Not Found
 ![alt text](Images/4.png)
