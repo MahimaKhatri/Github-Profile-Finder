@@ -5,6 +5,7 @@
   </div>
 
 In this project, we can search GitHub users by their username. The search query returns the user's profile information along with the list of repositories present in the profile.
+
 Live Demo : https://mahimakhatri.github.io/Github-Profile-Finder/
 
 ## Features :eyes:
