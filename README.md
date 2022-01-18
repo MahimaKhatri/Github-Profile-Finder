@@ -7,10 +7,12 @@
 In this project, we can search GitHub users by their username. The search query returns the user's profile information along with the list of repositories present in the profile.
 
 ## Features :eyes:
-
+### Home Page
 ![alt text](Images/1.png)
+### User Search
 ![alt text](Images/2.png)
 ![alt text](Images/3.png)
+### User Not Found
 ![alt text](Images/4.png)
 
 
