@@ -21,7 +21,7 @@ Live Demo : https://mahimakhatri.github.io/Github-Profile-Finder/
 
 ## Tech Stack :desktop_computer:
 
-+ Html xx
++ Html 
 + CSS
 + JavaScript
 + BootStrap
